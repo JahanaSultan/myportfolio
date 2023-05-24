@@ -10,7 +10,7 @@ function Main() {
                     <p>Hi, my name is</p>
                     <h1>Jahana Sultan</h1>
                     <h1>I am Full Stack Web Developer</h1>
-                    <p> with 1+ years of experience
+                    <p> with 2.5+ years of experience
                         designing, developing, and implementing applications and solutions using a
                         range of technologies and programming languages.</p>
                     <a className='button' href={cv} download="JahanaSultan.pdf">Download Resume</a></div>

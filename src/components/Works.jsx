@@ -4,7 +4,7 @@ function Works() {
   const myWorks = [
     {
       id: 15,
-      title: "AvtoaKira",
+      title: "AvtoKira",
       description: "Avtoakira is a car rental website. The user can choose the car and book it.",
       use: ["Html", "CSS", "Javascript", "Django", "Postgresql"],
       github: "",
@@ -16,7 +16,7 @@ function Works() {
       description: "Whisper of Verses website is designed for reading the Quran in Azerbaijani and Arabic languages. It includes daily prayer times and the Hijri calendar.",
       use: ["Html", "CSS", "Javascript"],
       github: "https://github.com/JahanaSultan/whisperofverses",
-      link: "http://whisperofverses.com/",
+      link: "https://whisperofverses.com/",
     },
     {
       id: 10,
