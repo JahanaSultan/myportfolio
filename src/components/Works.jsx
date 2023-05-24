@@ -3,9 +3,17 @@ import React from "react";
 function Works() {
   const myWorks = [
     {
+      id: 15,
+      title: "AvtoaKira",
+      description: "Avtoakira is a car rental website. The user can choose the car and book it.",
+      use: ["Html", "CSS", "Javascript", "Django", "Postgresql"],
+      github: "",
+      link: "https://avtokira.com/",
+    },
+    {
       id: 14,
       title: "Whisper of Verses",
-      description:"Whisper of Verses website is designed for reading the Quran in Azerbaijani and Arabic languages. It includes daily prayer times and the Hijri calendar.",
+      description: "Whisper of Verses website is designed for reading the Quran in Azerbaijani and Arabic languages. It includes daily prayer times and the Hijri calendar.",
       use: ["Html", "CSS", "Javascript"],
       github: "https://github.com/JahanaSultan/whisperofverses",
       link: "http://whisperofverses.com/",
@@ -38,6 +46,14 @@ function Works() {
       link: "https://jahanasultan.github.io/Rembini/",
     },
     {
+      id:16,
+      title: "Pixel Art",
+      description: "Pixel art project. User can choose color and draw pixel images.",
+      use: ["Html", "CSS", "Javascript"],
+      github: "https://github.com/JahanaSultan/pixsel_art",
+      link: "https://jahanasultan.github.io/pixsel_art/",
+    },
+    {
       id: 1,
       title: "Quiz App",
       description:
@@ -47,9 +63,9 @@ function Works() {
       link: "https://jahanasultan.github.io/Quiz-App-Javascript/",
     },
     {
-      id:15,
+      id: 15,
       title: "1 minute Typing Speed Test",
-      description:"This project is a typing speed test. The user can choose the time and start the test. After the test, the user can see the result.",
+      description: "This project is a typing speed test. The user can choose the time and start the test. After the test, the user can see the result.",
       use: ["Html", "CSS", "Javascript"],
       github: "https://github.com/JahanaSultan/typing-game",
       link: "https://jahanasultan.github.io/typing-game/",
@@ -58,7 +74,7 @@ function Works() {
       id: 11,
       title: "NoteApp",
       description: "Note app for note taking. API was written using the Django Rest Framework. It is possible to add, delete and update notes",
-      use: ["Python","Django","DRF", "React"],
+      use: ["Python", "Django", "DRF", "React"],
       github: "https://github.com/JahanaSultan/NoteApp.git",
       link: "",
     },
@@ -138,9 +154,9 @@ function Works() {
             <div className="box" key={i}>
               <div className="head">
                 <i className="fa-regular fa-folder"></i>
-                {e.github?(<a href={e.github} target="_blank" rel="noreferrer noopener">
+                {e.github ? (<a href={e.github} target="_blank" rel="noreferrer noopener">
                   <i className="fa-brands fa-github"></i>
-                </a>):""}
+                </a>) : ""}
                 {e.link ? (
                   <a target="_blank" rel="noreferrer noopener" href={e.link}>
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
