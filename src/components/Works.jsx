@@ -5,7 +5,7 @@ function Works() {
     {
       id: 15,
       title: "AvtoKira",
-      description: "Avtoakira is a car rental website. The user can choose the car and book it.",
+      description: "Avtokira is a car rental website. The user can choose the car and book it. Rental companies can add their cars to the site. All users can add servise ads about cars.Users make vip ads for their cars.",
       use: ["Html", "CSS", "Javascript", "Django", "Postgresql"],
       github: "",
       link: "https://avtokira.com/",
