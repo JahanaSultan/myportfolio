@@ -12,9 +12,9 @@ function Works() {
     },
     {
       id: 16,
-      title: "HIRPO",
+      title: "Hirpo",
       description: "Hirpo enables you to easily automate 70% of the solution process through the information available in the database. With Hirpo, you can effectively carry out the performance evaluation process of your employees.",
-      use: ["React", "Redux", "Django", "Postgresql", "Django Rest Framework"],
+      use: ["React", "Redux", "Django", "Postgresql", "DRF"],
       github: "",
       link: "https://app.hirpo.net",
     },

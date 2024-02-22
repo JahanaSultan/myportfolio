@@ -9,7 +9,7 @@ function Main() {
                 <div className="box">
                     <p>Hi, my name is</p>
                     <h1>Jahana Sultan</h1>
-                    <h1>I am Full Stack Web Developer</h1>
+                    <h1>I am Software Developer</h1>
                     <p> with 2.5+ years of experience
                         designing, developing, and implementing applications and solutions using a
                         range of technologies and programming languages.</p>
