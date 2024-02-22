@@ -3,7 +3,7 @@ import React from "react";
 function Works() {
   const myWorks = [
     {
-      id: 15,
+      id: 1,
       title: "AvtoKira",
       description: "Avtokira is a car rental website. The user can choose the car and book it. Rental companies can add their cars to the site. All users can add servise ads about cars.Users make vip ads for their cars.",
       use: ["Html", "CSS", "Javascript", "Django", "Postgresql"],
@@ -11,7 +11,15 @@ function Works() {
       link: "https://avtokira.com/",
     },
     {
-      id: 14,
+      id: 16,
+      title: "HIRPO",
+      description: "Hirpo enables you to easily automate 70% of the solution process through the information available in the database. With Hirpo, you can effectively carry out the performance evaluation process of your employees.",
+      use: ["React", "Redux", "Django", "Postgresql", "Django Rest Framework"],
+      github: "",
+      link: "https://app.hirpo.net",
+    },
+    {
+      id: 2,
       title: "Whisper of Verses",
       description: "Whisper of Verses website is designed for reading the Quran in Azerbaijani and Arabic languages. It includes daily prayer times and the Hijri calendar.",
       use: ["Html", "CSS", "Javascript"],
@@ -19,7 +27,7 @@ function Works() {
       link: "https://whisperofverses.com/",
     },
     {
-      id: 10,
+      id: 3,
       title: "TravelGo",
       description:
         "TravelGo helps travel companies to sell tours, and at the same time, it is possible to obtain the necessary materials for travel from the market section.",
@@ -28,7 +36,7 @@ function Works() {
       link: "https://travelgotourism.netlify.app",
     },
     {
-      id: 13,
+      id: 4,
       title: "YeMake",
       description:
         "yemake.com food blog. All users can share blog and recipe. Users can add recipe to recipe book, like and add comment",
@@ -37,7 +45,7 @@ function Works() {
       link: "https://jahanasultan.pythonanywhere.com/",
     },
     {
-      id: 12,
+      id: 5,
       title: "Rembini E-Commerce",
       description:
         "The site of the store that sells men's accessories.",
@@ -46,7 +54,7 @@ function Works() {
       link: "https://jahanasultan.github.io/Rembini/",
     },
     {
-      id:16,
+      id: 6,
       title: "Pixel Art",
       description: "Pixel art project. User can choose color and draw pixel images.",
       use: ["Html", "CSS", "Javascript"],
@@ -54,7 +62,7 @@ function Works() {
       link: "https://jahanasultan.github.io/pixsel_art/",
     },
     {
-      id: 1,
+      id: 7,
       title: "Quiz App",
       description:
         " I use opentdb.com API for questions. User input name and difficulty, after questions display. Every game has 10 questions.",
@@ -63,7 +71,7 @@ function Works() {
       link: "https://jahanasultan.github.io/Quiz-App-Javascript/",
     },
     {
-      id: 15,
+      id: 8,
       title: "1 minute Typing Speed Test",
       description: "This project is a typing speed test. The user can choose the time and start the test. After the test, the user can see the result.",
       use: ["Html", "CSS", "Javascript"],
@@ -71,7 +79,7 @@ function Works() {
       link: "https://jahanasultan.github.io/typing-game/",
     },
     {
-      id: 11,
+      id: 9,
       title: "NoteApp",
       description: "Note app for note taking. API was written using the Django Rest Framework. It is possible to add, delete and update notes",
       use: ["Python", "Django", "DRF", "React"],
@@ -79,41 +87,41 @@ function Works() {
       link: "",
     },
     {
-      id: 3,
+      id: 10,
       title: "Directone Hotel Website Template",
       description: "Directone Hotel website, only use Html and Css.",
       use: ["Html", "CSS"],
       github: "https://github.com/JahanaSultan/Directone-Template.git",
       link: "https://jahanasultan.github.io/Directone-Template/",
     },
+    // {
+    //   id: 11,
+    //   title: "Standart Javascript Calculator",
+    //   description: "Standart calculator project.",
+    //   use: ["Html", "CSS", "Javascript"],
+    //   github: "https://github.com/JahanaSultan/Calculator-JS.git",
+    //   link: "https://jahanasultan.github.io/Calculator-JS/",
+    // },
+    // {
+    //   id: 12,
+    //   title: "Analog Clock",
+    //   description:
+    //     "Analog watch project written with javascript and show time.",
+    //   use: ["Html", "CSS", "Javascript"],
+    //   github: "https://github.com/JahanaSultan/AnalogClock.git",
+    //   link: "https://jahanasultan.github.io/AnalogClock/",
+    // },
+    // {
+    //   id: 13,
+    //   title: "Weather App",
+    //   description:
+    //     "Weather app use data openweather.com API. Search any city and see the result",
+    //   use: ["Html", "CSS", "Javascript", "openweather.com"],
+    //   github: "https://github.com/JahanaSultan/Weather-App.git",
+    //   link: "https://jahanasultan.github.io/Weather-App/",
+    // },
     {
-      id: 4,
-      title: "Standart Javascript Calculator",
-      description: "Standart calculator project.",
-      use: ["Html", "CSS", "Javascript"],
-      github: "https://github.com/JahanaSultan/Calculator-JS.git",
-      link: "https://jahanasultan.github.io/Calculator-JS/",
-    },
-    {
-      id: 5,
-      title: "Analog Clock",
-      description:
-        "Analog watch project written with javascript and show time.",
-      use: ["Html", "CSS", "Javascript"],
-      github: "https://github.com/JahanaSultan/AnalogClock.git",
-      link: "https://jahanasultan.github.io/AnalogClock/",
-    },
-    {
-      id: 6,
-      title: "Weather App",
-      description:
-        "Weather app use data openweather.com API. Search any city and see the result",
-      use: ["Html", "CSS", "Javascript", "openweather.com"],
-      github: "https://github.com/JahanaSultan/Weather-App.git",
-      link: "https://jahanasultan.github.io/Weather-App/",
-    },
-    {
-      id: 7,
+      id: 14,
       title: "Student Performance System",
       description:
         "This system has 3 login buttons: teacher, student, and admin. Students can see your information and marks, teachers know the group and group students. Add and update the mark. Admin can add teacher, student, lesson, and group.",
@@ -123,7 +131,7 @@ function Works() {
       link: "",
     },
     {
-      id: 8,
+      id: 15,
       title: "Unbeatable TicTacToe",
       description:
         "I use python Tkinter to visualize this game. This game has 2 play types: single players and 2 players. The single-player type has 2 difficulty levels: intermediate and advanced. Advanced level I use minimax algorithm and advance mode unbeatable.",
@@ -131,15 +139,15 @@ function Works() {
       github: "https://github.com/JahanaSultan/TicTakToe.git",
       link: "",
     },
-    {
-      id: 2,
-      title: "Random Hex Color",
-      description:
-        "Background color changes randomly and shows background color hex code. When clicking the stop button background stops changing..",
-      use: ["Html", "CSS", "Javascript"],
-      github: "https://github.com/JahanaSultan/Random-Hex-Color-With-Js.git",
-      link: "https://jahanasultan.github.io/Random-Hex-Color-With-Js/",
-    }
+    // {
+    //   id: 16,
+    //   title: "Random Hex Color",
+    //   description:
+    //     "Background color changes randomly and shows background color hex code. When clicking the stop button background stops changing..",
+    //   use: ["Html", "CSS", "Javascript"],
+    //   github: "https://github.com/JahanaSultan/Random-Hex-Color-With-Js.git",
+    //   link: "https://jahanasultan.github.io/Random-Hex-Color-With-Js/",
+    // }
   ];
   return (
     <>
