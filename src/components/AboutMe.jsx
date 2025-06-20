@@ -1,4 +1,3 @@
-import React from 'react'
 import me from "../assets/image/me.jpg"
 
 function AboutMe() {

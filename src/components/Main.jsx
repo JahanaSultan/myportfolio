@@ -1,4 +1,3 @@
-import React from 'react'
 import cv from "../assets/file/CV-2025.pdf"
 
 function Main() {
@@ -15,8 +14,6 @@ function Main() {
                         range of technologies and programming languages.</p>
                     <a className='button' href={cv} download="JahanaSultan.pdf">Download Resume</a></div>
             </header>
-
-
         </>
     )
 }

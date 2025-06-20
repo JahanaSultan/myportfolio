@@ -1,7 +1,7 @@
-import React from "react";
+import { useMemo } from "react";
 
 function Works() {
-  const myWorks = [
+  const myWorks = useMemo(() => [
     {
       id: 1,
       title: "AvtoKira",
@@ -156,7 +156,9 @@ function Works() {
     //   github: "https://github.com/JahanaSultan/Random-Hex-Color-With-Js.git",
     //   link: "https://jahanasultan.github.io/Random-Hex-Color-With-Js/",
     // }
-  ];
+  ]
+    , []);
+
   return (
     <>
       <section className="works padding-x" id="works">
@@ -185,7 +187,7 @@ function Works() {
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href={e.link ? e.link : e.github}
+                  href={e.link || e.github}
                 >
                   {" "}
                   <h2>{e.title}</h2>
