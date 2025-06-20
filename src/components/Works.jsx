@@ -11,6 +11,14 @@ function Works() {
       link: "https://avtokira.com/",
     },
     {
+      id: 17,
+      title: "Entropicon",
+      description: "Entropicon is AI based Applicant Tracking System (ATS).",
+      use: ["React", "Redux", "Django", "Postgresql", "DRF"],
+      github: "",
+      link: "https://jobs.entropicon.com/",
+    },
+    {
       id: 16,
       title: "Hirpo",
       description: "Hirpo enables you to easily automate 70% of the solution process through the information available in the database. With Hirpo, you can effectively carry out the performance evaluation process of your employees.",
