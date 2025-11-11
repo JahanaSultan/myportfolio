@@ -60,10 +60,11 @@ function Contact() {
           </ul>
 
         </div>
-        <p> by Jahana Sultan 2022 </p>
+        <p> by Jahana Sultan 2025 </p>
       </div>
     </>
   )
 }
+
 
 export default Contact
