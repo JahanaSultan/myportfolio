@@ -28,6 +28,15 @@ function Works() {
 }
 ,
     {
+  id: 19,
+  title: "PeopleAtWork",
+  description: "PeopleAtWork is a job marketplace platform that connects employers and job seekers by enabling companies to publish job listings and candidates to discover and apply for career opportunities",
+  use: ["React", "NextJs", "Redux", "Django", "PostgreSQL", "DRF"],
+  github: "",
+  link: "https://peopleatwork.az/",
+}
+,
+    {
       id: 16,
       title: "Hirpo",
       description: "Hirpo enables you to easily automate 70% of the solution process through the information available in the database. With Hirpo, you can effectively carry out the performance evaluation process of your employees.",
@@ -219,4 +228,5 @@ function Works() {
 }
 
 export default Works;
+
 
