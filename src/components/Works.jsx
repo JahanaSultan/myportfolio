@@ -18,6 +18,15 @@ function Works() {
       github: "",
       link: "https://jobs.entropicon.com/",
     },
+   {
+  id: 18,
+  title: "NaviPeople",
+  description: "NaviPeople is an AI-powered HR analytics platform.",
+  use: ["React", "Redux", "NextJs", "Django", "PostgreSQL", "DRF"],
+  github: "",
+  link: "https://navipeople.ai",
+}
+,
     {
       id: 16,
       title: "Hirpo",
@@ -210,3 +219,4 @@ function Works() {
 }
 
 export default Works;
+
